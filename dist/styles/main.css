@@ -12,19 +12,34 @@ body {
 }
 
 .logo{
-    width: 1200px;
-    margin: 0 auto;
+    width: 500pxx;
+    margin: 100px;
 }
 
-#header .liste{
+#header ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
+li{
+    
+    display: flex;
+    justify-content: space-around;
+}
 
+#header{
+    display: flex;
+    align-items: center;
+}
 
+a{
+    text-decoration: none;
+}
 
+.liste{
+    list-style: none;
+}
 
 
 
